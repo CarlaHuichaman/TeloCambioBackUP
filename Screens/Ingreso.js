@@ -22,24 +22,24 @@ export default function Ingreso(){
     return (
         <View style={styles.padre}>
             <View style={styles.padreBoton}>
-                    <TouchableOpacity style={styles.cajaBotonL} onPress={goLogin}>
-                        <Text style={styles.textoBoton}>Iniciar Sesión</Text>
-                    </TouchableOpacity>
-                </View>
-
-                <View style={styles.padreBoton}>
-                    <TouchableOpacity style={styles.cajaBotonR} onPress={goRegistro}>
-                        <Text style={styles.textoBoton}>Registrarse</Text>
-                    </TouchableOpacity>
-                </View>
-
-                <View style={styles.padreBoton}>
-                    <TouchableOpacity style={styles.cajaBotonG}>
-                        <Text style={styles.textoBoton}>BAYRON CAMBIALO</Text>
-                    </TouchableOpacity>
-                </View>
-                
+                <TouchableOpacity style={styles.cajaBotonL} onPress={goLogin}>
+                    <Text style={styles.textoBoton}>Iniciar Sesión</Text>
+                </TouchableOpacity>
             </View>
+
+            <View style={styles.padreBoton}>
+                <TouchableOpacity style={styles.cajaBotonR} onPress={goRegistro}>
+                    <Text style={styles.textoBoton}>Registrarse</Text>
+                </TouchableOpacity>
+            </View>
+
+            <View style={styles.padreBoton}>
+                <TouchableOpacity style={styles.cajaBotonG}>
+                    <Text style={styles.textoBoton}>BAYRON CAMBIALO</Text>
+                </TouchableOpacity>
+            </View>
+                
+        </View>
     )
 }
 //Estilos para los botones y texto
